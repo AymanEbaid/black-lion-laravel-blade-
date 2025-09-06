@@ -22,12 +22,13 @@
 ---
 
 ## Screenshots
-
 ### Home Page
-![Home](Screenshots/Screenshot-home.png) 
+![Home](screenshots/Screenshot-home.png)
 
 ### Products Page
-![Products](Screenshots/Screenshot-2.png)
+![Products](screenshots/Screenshot-2.png)
+
+
 
 ---
 
