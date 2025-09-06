@@ -1,6 +1,6 @@
 # Black Lion - Laravel Clothing Showroom
 
-![Laravel](https://img.shields.io/badge/Laravel-9.x-red?logo=laravel&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-12.x-red?logo=laravel&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-8.2-blue?logo=php&logoColor=white)
 ![Blade](https://img.shields.io/badge/Blade-Template-orange)
 
