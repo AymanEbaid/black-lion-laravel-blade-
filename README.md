@@ -24,10 +24,10 @@
 ## Screenshots
 
 ### Home Page
-![Home](public/image/Screenshot-home.png) 
+![Home](Screenshots/Screenshot-home.png) 
 
 ### Products Page
-![Products](public/image/Screenshot-2.png)
+![Products](Screenshots/Screenshot-2.png)
 
 ---
 
