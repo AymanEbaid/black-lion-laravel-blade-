@@ -1,0 +1,440 @@
+:root {
+    --bl-gray: #f8f8f8;
+    --bl-white: #ffffff;
+    --bl-black: #222222;
+    --bl-gray: #f8f8f8;
+    --bl-dark-gray: #e5e5e5;
+    --bl-red: #e20020;
+    --bl-gold: #c9a145;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--bl-black);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1;
+}
+
+.navbar {
+    border-bottom: 1px solid var(--bl-dark-gray);
+}
+
+.hero-section {
+    background: url("../image/rayul-_M6gy9oHgII-unsplash.jpg")
+        no-repeat center center;
+    background-size: cover;
+    height: 80vh;
+}
+
+.product-card {
+    border: 1px solid var(--bl-dark-gray);
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.product-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    border-bottom: 1px solid var(--bl-dark-gray);
+}
+
+.btn-black {
+    background-color: var(--bl-black);
+    color: white;
+    border-radius: 0;
+    padding: 10px 24px;
+    font-size: 0.9rem;
+}
+
+.btn-outline-black {
+    border: 1px solid var(--bl-black);
+    color: var(--zara-black);
+    border-radius: 0;
+    padding: 10px 24px;
+    font-size: 0.9rem;
+}
+
+.category-nav {
+    border-bottom: 1px solid var(--bl-dark-gray);
+}
+
+.bl-hero-about {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("https://images.unsplash.com/photo-1605000797499-95a51c5269ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80")
+            no-repeat center center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.bl-section-title {
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.bl-section-title:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background-color: var(--bl-black);
+}
+
+.bl-timeline {
+    position: relative;
+    padding-left: 50px;
+}
+
+.bl-timeline:before {
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--bl-dark-gray);
+}
+
+.bl-timeline-item {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.bl-timeline-dot {
+    position: absolute;
+    left: -44px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--bl-black);
+    border: 4px solid var(--bl-white);
+    box-shadow: 0 0 0 2px var(--bl-black);
+}
+
+.bl-stat-number {
+    font-size: 3rem;
+    font-weight: 300;
+    color: var(--bl-black);
+}
+
+.bl-stat-label {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    color: var(--bl-dark-gray);
+}
+
+.contact-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80")
+            no-repeat center center;
+    background-size: cover;
+    height: 40vh;
+}
+
+.contact-card {
+    border: none;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+}
+
+.form-control {
+    border-radius: 0;
+    border: 1px solid var(--bl-dark-gray);
+    padding: 12px 15px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: var(--bl-black);
+}
+
+.btn-contact {
+    background-color: var(--bl-black);
+    color: white;
+    border-radius: 0;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+
+.btn-contact:hover {
+    background-color: var(--bl-red);
+    color: white;
+}
+
+.contact-icon {
+    font-size: 1.5rem;
+    color: var(--bl-red);
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 1rem;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-label {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: #555;
+    margin-bottom: 0.3rem;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0.75rem 0;
+    font-size: 1rem;
+    background-color: transparent;
+}
+
+.form-control:focus {
+    border-color: #000;
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 2rem;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    border-radius: 0;
+}
+
+.btn-primary:hover {
+    background-color: #333;
+}
+
+.btn-secondary {
+    background-color: #f5f5f5;
+    color: #000;
+    border: 1px solid #ddd;
+    padding: 0.75rem 2rem;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    border-radius: 0;
+    margin-left: 0.5rem;
+}
+
+.btn-secondary:hover {
+    background-color: #e0e0e0;
+}
+
+.mb-3 {
+    margin-bottom: 2rem !important;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+.table thead {
+    background-color: #f9f9f9;
+    text-transform: uppercase;
+}
+
+.table th,
+.table td {
+    padding: 1rem;
+    border: 1px solid #e0e0e0;
+    vertical-align: middle;
+    font-size: 0.95rem;
+}
+
+.table tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+.btn {
+    border-radius: 0;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-success {
+    background-color: #000;
+    color: #fff;
+}
+
+.btn-success:hover {
+    background-color: #333;
+}
+
+.btn-secondary {
+    background-color: #f5f5f5;
+    color: #000;
+    border: 1px solid #ddd;
+}
+
+.btn-secondary:hover {
+    background-color: #e0e0e0;
+}
+
+.btn-warning {
+    background-color: #999;
+    color: #fff;
+}
+
+.btn-warning:hover {
+    background-color: #777;
+}
+
+.btn-danger {
+    background-color: #c00;
+    color: #fff;
+}
+
+.btn-danger:hover {
+    background-color: #a00;
+}
+
+.alert-success {
+    background-color: #e0ffe0;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0;
+    font-size: 0.9rem;
+}
+.create-product {
+    text-align: center;
+    padding: 20px 0;
+    background-color: var(--bl-gray);
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    border: 1px solid var(--bl-dark-gray);
+}
+
+
+.sidebar {
+    width: 250px;
+    min-height: 100vh;
+}
+
+.sidebar .nav-link {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sidebar .nav-link:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.content {
+    background-color: #fff;
+}
+
+.card {
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+.product-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover; 
+}
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    font-size: 28px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    z-index: 9999;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+}
+.whatsapp-button:hover {
+    transform: scale(1.1);
+    background-color: #20b954;
+}
+.contact-phone a {
+    display: block;
+    color: var(--bl-black);
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.product-img {
+    object-fit: cover;
+    height: 400px; /* ممكن تغيرها حسب التصميم */
+    transition: transform 0.3s ease;
+}
+
+.product-img:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.btn-outline-dark {
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.product-detail-img {
+    object-fit: cover;
+    max-height: 600px;
+}
+
+h2 {
+    letter-spacing: 1px;
+}
+
+.btn {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
